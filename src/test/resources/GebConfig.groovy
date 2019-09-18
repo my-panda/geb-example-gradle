@@ -43,4 +43,5 @@ environments {
 
 // To run the tests with all browsers just run “./gradlew test”
 
-baseUrl = "http://gebish.org"
+//baseUrl = "http://gebish.org"
+baseUrl = 'https://caas-prod-qa1-approuter-caas2-sap.cfapps.us10.hana.ondemand.com/'

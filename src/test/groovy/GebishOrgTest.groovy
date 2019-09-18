@@ -1,8 +1,10 @@
 import geb.junit4.GebReportingTest
+import org.junit.Ignore
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
 
+@Ignore
 @RunWith(JUnit4)
 class GebishOrgTest extends GebReportingTest {
 
