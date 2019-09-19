@@ -10,7 +10,8 @@ import org.openqa.selenium.chrome.ChromeOptions
 import org.openqa.selenium.firefox.FirefoxDriver
 
 waiting {
-	timeout = 2
+	timeout = 30
+	retryInterval = 0.5
 }
 
 environments {
@@ -45,3 +46,15 @@ environments {
 
 //baseUrl = "http://gebish.org"
 baseUrl = 'https://caas-prod-qa1-approuter-caas2-sap.cfapps.us10.hana.ondemand.com/'
+
+reportsDir = "report/geb-reports"
+
+templateOptions {
+	cache = true
+	wait = true
+	toWait = true
+	waitCondition = { it.displayed }
+	required = false
+	min = 0
+	max = 1
+}

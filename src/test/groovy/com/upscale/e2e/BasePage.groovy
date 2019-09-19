@@ -1,4 +1,4 @@
-package com.upscale.e2e.wb.page
+package com.upscale.e2e
 
 import geb.Page
 

@@ -2,7 +2,7 @@ package com.upscale.e2e.wb.page
 
 import geb.Page
 
-class LoginPage extends Page {
+class LoginPage extends WbPage {
 
     static at = { title == "Login page" }
     static url = 'home'

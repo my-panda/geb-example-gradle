@@ -1,5 +1,6 @@
 package com.upscale.e2e.wb.page
 
+import com.upscale.e2e.BasePage
 import com.upscale.e2e.wb.module.HeaderModule
 
 /**
@@ -7,7 +8,7 @@ import com.upscale.e2e.wb.module.HeaderModule
  * Dept: CAAS
  * Team: Mooncake
  */
-class EditionsPage extends BasePage {
+class EditionsPage extends WbPage {
     static at = {
         tree_trigger
 //        title = 'Caas Workbench'
