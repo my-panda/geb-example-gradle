@@ -1,4 +1,5 @@
 build
+report
 .gradle
 *.log
 .DS_Store
